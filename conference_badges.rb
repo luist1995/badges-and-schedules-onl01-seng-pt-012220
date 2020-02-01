@@ -22,7 +22,9 @@ end
     
 def badges_and_room_assignments (attendees)
   batch_badge_creator (attendees).each do |a|
+    print
   end
   assign_rooms (attendees).each do |a| 
+    print 
   end
 end
