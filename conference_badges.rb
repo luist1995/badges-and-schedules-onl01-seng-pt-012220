@@ -25,6 +25,6 @@ def printer (attendees)
     puts a
   end
   assign_rooms (attendees).each do |a| 
-    puts 
+    puts a
   end
 end
