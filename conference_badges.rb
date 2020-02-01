@@ -4,6 +4,8 @@ def badge_maker (name)
     puts "Hello, my name is #{name}."
   end
   
+  badge_maker ("Arel")
+  
   def batch_badge_creator (attendees)
     new_array = []
     attendees.each do |a|
@@ -12,5 +14,6 @@ def badge_maker (name)
     new_array
   end
   
-  def assign_rooms (name)
+  def assign_rooms (attendees)
+    
     
