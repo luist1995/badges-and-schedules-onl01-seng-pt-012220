@@ -12,6 +12,6 @@ def badge_maker (name)
     new_array
   end
   
-  def assign_rooms (attendees)
+
     
     
