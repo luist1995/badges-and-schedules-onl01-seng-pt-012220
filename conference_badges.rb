@@ -21,4 +21,5 @@ def assign_rooms (attendees)
 end
     
 def badges_and_room_assignments (attendees)
-  
+  batch_badge_creator
+  assign_rooms
