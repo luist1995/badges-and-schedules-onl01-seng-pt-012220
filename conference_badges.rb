@@ -20,3 +20,4 @@ def assign_rooms (attendees)
   new_array
 end
     
+def badges_and_room_assignments 
