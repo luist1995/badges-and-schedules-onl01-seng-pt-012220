@@ -11,3 +11,6 @@ def badge_maker (name)
     end
     new_array
   end
+  
+  def assign_rooms (name)
+    
