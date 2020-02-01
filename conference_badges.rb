@@ -21,6 +21,6 @@ def assign_rooms (attendees)
 end
     
 def badges_and_room_assignments (attendees)
- printf batch_badge_creator
- printf assign_rooms
+ printf batch_badge_creator (attendees)
+ printf assign_rooms (attendees)
 end
