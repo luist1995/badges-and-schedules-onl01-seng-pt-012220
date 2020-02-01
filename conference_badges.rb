@@ -22,5 +22,5 @@ end
     
 def badges_and_room_assignments (attendees)
  print batch_badge_creator
-  assign_rooms
+ print assign_rooms
 end
