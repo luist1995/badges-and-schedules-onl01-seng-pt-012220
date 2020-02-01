@@ -21,6 +21,8 @@ def assign_rooms (attendees)
 end
     
 def badges_and_room_assignments (attendees)
-  batch_badge_creator (attendees).each do
-  assign_rooms (attendees).each do
+  batch_badge_creator (attendees).each do |a|
+  end
+  assign_rooms (attendees).each do |a| 
+  end
 end
